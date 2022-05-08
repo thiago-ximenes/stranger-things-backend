@@ -7,7 +7,7 @@ jobs:
       - name: Verifica repositótio do Git
         uses: actions/checkout@v2
 
-      - name: Instala o node com a versão
+      - name: Instala o node com a versão 12
         uses: actions/setup-node@v1
         with:
           node-version: 12
